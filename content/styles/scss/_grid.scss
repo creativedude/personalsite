@@ -14,4 +14,8 @@
   grid-template-rows: repeat(2, 1fr);
   min-width:100vw;
   min-height:100vh;
+  @include breakpoint('1100px') {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
 }
