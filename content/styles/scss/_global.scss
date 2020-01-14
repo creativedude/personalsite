@@ -40,7 +40,16 @@ a:hover {
   background-color:$white;
 }
 html {
-  font-size:14px;
+  font-size:75%;
+  @include breakpoint('1480px') {
+    font-size:57%;
+  }
+  @include breakpoint('760px') {
+    font-size:53%;
+  }
+  @include breakpoint('350px') {
+    font-size:45%;
+  }
 }
 .home-container {
   a {
@@ -50,6 +59,7 @@ html {
     &:first-of-type {
       font-size:10px;
       .hello-container {
+        margin:50px 0;
         max-width:40rem;
         //border:1px solid #0f0;
         display:grid;
@@ -134,8 +144,8 @@ html {
           grid-row-end: 3;
         }
         &:nth-of-type(8) {
-          font-size:1.5rem;
-          line-height:1.5rem;
+          font-size:1.75rem;
+          line-height:1.75rem;
           text-align:right;
           grid-column-start: 3;
           grid-column-end: 5;
