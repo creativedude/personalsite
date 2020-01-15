@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   // Default port
   var LIVERELOAD_PORT = 35729;
-
+  const sass = require('node-sass');
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -18,6 +18,7 @@ module.exports = function(grunt) {
 
     sass: {
       options: {
+        implementation: sass,
         sourceMap: true,
         outputStyle: 'compressed',
       },
