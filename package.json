@@ -14,6 +14,6 @@
     "grunt-sassdoc": "^2.0.2",
     "grunt-svgmin": "^2.0.1",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   }
 }
