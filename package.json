@@ -1,19 +1,19 @@
 {
-  "name": "NMLwebsite",
+  "name": "CreativeDudeWebsite",
   "version": "2.0.0",
   "private": true,
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-connect": "^0.11.2",
-    "grunt-contrib-copy": "^0.6.0",
-    "grunt-contrib-imagemin": "~0.5.0",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt-contrib-watch": "^0.6.1",
+    "grunt": "^1.6.0",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-connect": "^4.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "~4.0.0",
+    "grunt-contrib-uglify": "~5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.1.0",
-    "grunt-sassdoc": "^2.0.2",
-    "grunt-svgmin": "^2.0.1",
-    "gulp-sass": "^4.0.2",
-    "node-sass": "^4.13.0"
+    "grunt-sassdoc": "^2.0.3",
+    "grunt-svgmin": "^7.0.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0"
   }
 }

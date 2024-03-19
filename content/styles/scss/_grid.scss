@@ -2,16 +2,41 @@
   display: grid;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  background-color:$white;
-  padding:10px;
+  background-color: $white;
+  padding: 10px;
+
   .content-block {
-    text-decoration:none;
-    background-color:$base-color;
+    text-decoration: none;
+    background-color: $base-color;
   }
 }
+.grid {
+  display:grid;
+}
+
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  min-width:100vw;
-  min-height:100vh;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.grid-2 {
+
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 1279px) {
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+
+@media only screen and (max-width: 799px) {
+  .grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
 }

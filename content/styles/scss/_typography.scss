@@ -2,9 +2,30 @@
 
 Set font weights and styles. Not family.
 */
-@include font-face("Bebas Neue", fonts/BebasNeue-webfont, null, null)
+@include font-face("Bebas Neue", '/content/fonts/BebasNeue-webfont', null, null);
+
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url('/content/fonts/BebasNeue-Regular.ttf')  format('truetype');
+
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family:$heading-font-family;
   font-weight: $heading-font-weight;
   margin: 0 0 $vertical-measure 0;
+}
+h2 {
+  font-size:2.5rem;
+}
+
+h3 {
+  font-size:1.5rem;
+}
+
+
+
+.cb-header {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
