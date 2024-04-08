@@ -1,0 +1,9 @@
+.inverted {
+    color:$base-color;
+    .grid-container {
+        background-color:$base-color;
+        .content-block {
+            background-color:$white;
+        }
+    }
+}

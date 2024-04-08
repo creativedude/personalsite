@@ -229,6 +229,14 @@ html {
 
   }
 }
+@media screen and (max-width: 600px) {
+  .home-container .content-block {
+    padding:2rem;
+    &:first-child {
+      padding:0rem;
+    }
+  }
+}
 
 .contact {
   display:flex;
@@ -336,5 +344,9 @@ html {
 }
 .bot2 {
   margin-bottom:2rem;
+}
+
+.trans {
+  opacity:0.5;
 }
 @container helloblock (min-width: 700px) {}

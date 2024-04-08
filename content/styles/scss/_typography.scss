@@ -10,6 +10,11 @@ Set font weights and styles. Not family.
   src: url('/content/fonts/BebasNeue-Regular.ttf')  format('truetype');
 
 }
+@font-face {
+  font-family: "Quattrocento Sans";
+  src: url('/content/fonts/QuattrocentoSans-Regular.ttf')  format('truetype');
+
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family:$heading-font-family;
   font-weight: $heading-font-weight;
@@ -23,9 +28,20 @@ h3 {
   font-size:1.5rem;
 }
 
-
+ul, ol {
+  padding-left:1rem;
+  margin-top:0;
+  li {
+    margin-bottom:0.5rem;
+  }
+}
 
 .cb-header {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+a {
+
+  transition:all ease-in-out 200ms;
 }

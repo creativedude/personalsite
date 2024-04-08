@@ -1,6 +1,8 @@
 // Variables Use this section to set up commonly used style elements - font-family, font-size, color scheme, etc.
 
 $base-color: #242427;
+$trans-color: #242427aa;
+$trans-white-color: #ddddddaa;
 
 $link-color: #22ace0;
 $link-hover-color: #d92562;
@@ -9,7 +11,7 @@ $link-visited-color: purple;
 $yellow: #ffce08;
 
 $font-family1: 'Ovo', Serif;
-$font-family2: 'Quattrocento Sans', Sans-Serif;
+$font-family2: 'Quattrocento Sans', sans-Serif;
 
 
 $base-font-family: $font-family2;

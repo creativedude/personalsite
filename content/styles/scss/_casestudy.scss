@@ -1,0 +1,104 @@
+
+.casestudy {
+    font-size:16px;
+    display:grid;
+    //grid-template-columns: repeat(3, 1fr);
+    .grid-container {
+        grid-template-rows: auto auto;
+        .content-block {
+            gap: 1.5rem;
+
+            a {
+
+
+                &:hover {
+                    color: $yellow;
+                }
+            }
+
+            &:first-of-type {
+                align-items: baseline;
+
+                h1 {
+                    margin: 0;
+
+                    //color:$yellow;
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            h2 {
+                line-height: 1;
+                margin-bottom: 0;
+            }
+
+            .flex {
+                .logo {
+                    max-width: 100px;
+                }
+            }
+
+            .copy {
+                //margin: 1rem 0rem;
+
+            }
+
+            .casestudy--header {
+
+                h2 {
+                    margin-top: 0;
+                    margin-bottom: 0.5rem;
+                    line-height: 1;
+                }
+
+                h3 {
+                    margin-bottom: 0.5rem;
+                    color: $yellow;
+                    line-height: 1;
+                }
+
+                p,
+                li {
+                    font-size: 14px
+                }
+            }
+        }
+
+    }
+    .small {
+        font-size:14px;
+    }
+    .stats {
+        h3 {
+            line-height:1;
+            margin:0;
+            margin-bottom:0.5rem;
+            font-size:2rem;
+            color:$yellow;
+        }
+        gap:1rem;
+        margin-bottom:2rem;
+        small {
+            line-height:1.1;
+            display:block;
+        }
+        div {
+            text-align:center;
+            
+        }
+    }
+}
+
+
+.devicepic {
+    max-width: 50%;
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .casestudy .grid-container .content-block:first-child {
+        padding: 2rem;
+    }
+}
